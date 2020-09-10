@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script>
+            var x, y;
+            x = parseInt(prompt("Nhập vào điểm thi giữa kì: "));
+            y = parseInt(prompt("Nhập vào điểm thi cuối kì: "));
+            DTB = (x + y) /2;
+            if(DTB>=8.5)
+            {
+                alert("Điểm số học sinh "+DTB+" - xếp loại: giỏi");
+            }else if(DTB>=7){
+                alert("Điểm số học sinh "+DTB+" - xếp loại: khá");
+            }else if(DTB>=5){
+                alert("Điểm số học sinh "+DTB+" - xếp loại: Trung bình");
+            }else if(DTB>=0){
+                alert("Điểm số học sinh "+DTB+" - xếp loại: kém");
+            }
+        </script>
+    </head>
+</html>
